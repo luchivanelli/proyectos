@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: hsl(239, 75%, 90%);
+}
+
+#title {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    background-color: hsl(239, 84%, 19%);
+    color: hsl(239, 75%, 90%);
+    text-shadow: 2px 4px 10px black;
+    padding: 30px 0;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+#img-div {
+    width: 500px;
+    margin: 70px auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    background-color: hsl(239, 84%, 19%);
+    padding: 50px 150px;
+}
+
+#tribute-info h3 {
+    background-color: hsl(239, 75%, 90%);
+    font-family: monospace;
+    font-size: 29px;
+    color: black;
+    padding: 10px;
+}
+
+.section-1 {
+    padding-bottom: 50px;
+    line-height: 40px;
+    color: hsl(239, 75%, 90%);
+}
+
+.section-2 {
+    padding-top: 30px;
+    line-height: 40px;
+    color: hsl(239, 75%, 90%);
+}
+
+.section-2 h4 {
+    background-color: hsl(239, 75%, 90%);
+    font-family: monospace;
+    font-size: 29px;
+    color: black;
+    padding: 10px;
+}
+
+strong {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3px;
+    color: hsl(239, 75%, 90%);
+    border-radius: 2px;
+}
+
+.link {
+    text-align: center;
+    font-size: 25px;
+}
+
+#tribute-link {
+    color: hsl(239, 84%, 19%);
+}
+
+#tribute-link:hover {
+    color: hsl(239, 84%, 59%);
+}
+
+
+@media screen and (max-width: 550px) {
+    #title {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    
+    #img-div {
+        width: 250px;
+        margin: 35px auto;
+    }
+
+    #tribute-info {
+        font-size: 11px;
+        padding: 25px 75px;
+    }
+    
+    #tribute-info h3 {
+        font-size: 15.5px;
+        padding: 5px;
+    }
+    
+    .section-1 {
+        padding-bottom: 25px;
+        line-height: 20px;
+    }
+    
+    .section-2 {
+        padding-top: 15px;
+        line-height: 20px;
+    }
+    
+    .section-2 h4 {
+        font-size: 15.5px;
+        padding: 5px;
+    }
+
+    .link {
+        font-size: 12.5px;
+    }
+
+    #img-caption {
+        font-size: 8px;
+    }
+}
