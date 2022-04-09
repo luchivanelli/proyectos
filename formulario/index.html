@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Proyecto 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Formulario para programadores</h1>
+        <p id="description">- Completa cada uno de los campos -</p>
+        <form id="survey-form">
+            <div class="section-form">
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Escriba su nombre" required>
+            </div>
+            <div class="section-form">
+                <label for="last-name">Apellido</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Escriba su apellido" required>
+            </div>
+            <div class="section-form">
+                <label for="number" id="number-label">Edad<b>(opcional)</b></label>
+                <input type="number" name="age" id="number" placeholder="Escriba su edad" min="0" max="99">
+            </div>
+            <div class="section-form">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Escriba su email" required>
+            </div>
+            <div class="section-form">
+                <p class="text-occupation">¿Qué opción describe mejor su función actual?</p>
+                <select name="occupation" id="dropdown" required>
+                    <option disabled selected value>Selecciona una opción</option>
+                    <option value="student">Estudiante</option>
+                    <option value="worker">Trabajador/a</option>
+                    <option value="notbusy">Desocupado/a</option>
+                    <option value="other">Otro</option>
+                </select>
+            </div>
+            <div class="section-form">
+                <p class="text-option">¿Desde hace cuánto sabes programar?</p>
+                <div class="option">
+                    <label>
+                        <input type="radio" name="option-radio" value="año0-1"> Menos de 1 año
+                    </label>
+                </div>
+                <div class="option">
+                    <label>
+                        <input type="radio" name="option-radio" value="año1-2"> Entre 1 y 2 años
+                    </label>
+                </div>
+                <div class="option">
+                    <label>
+                        <input type="radio" name="option-radio" value="año2-3"> Entre 2 y 3 años
+                    </label>
+                </div>
+                <div class="option">
+                    <label>
+                        <input type="radio" name="option-radio" value="año3"> 3 años o más
+                    </label>
+                </div>
+            </div>
+            <div class="section-form">
+                <p class="text-option-2">¿Que lenguajes dominas? <b>(selecciona 1 o más)</b></p>
+                <label class="option-2">
+                    <input type="checkbox" name="html"> HTML
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="CSS"> CSS
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="Javascript"> Javascript
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="net"> .Net
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="java"> Java
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="react"> React
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="angular"> Angular
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="node"> Node.js
+                </label>
+                <label class="option-2">
+                    <input type="checkbox" name="other"> Otro
+                </label>
+            </div>
+            <div class="section-form">
+                <p class="text-comments">Comentarios y/o preguntas <b>(opcional)</b></p>
+                <textarea name="comments" id="comments" placeholder="Deja tu comentario y/o pregunta" ></textarea>
+            </div>
+            <div class="section-form">
+                <button type="submit" id="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

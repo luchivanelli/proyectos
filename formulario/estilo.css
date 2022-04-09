@@ -1,0 +1,385 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/04/bb/1e/04bb1ec93c6c223aa61e1479435bb6e7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background: rgba(220, 220, 220, 0.676);
+    width: 1000px;
+    margin: 50px auto;
+    padding-bottom: 40px;
+    border: 2px solid rgba(49, 49, 49, 0.879);
+}
+
+#title {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.725);
+    border-top: 1px solid rgb(129, 129, 129);
+    border-bottom: 1px solid rgb(129, 129, 129);
+}
+
+#description {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(5, 5, 54, 0.725);
+    border-top: 1px solid rgb(129, 129, 129);
+    border-bottom: 1px solid rgb(129, 129, 129);
+    color: white;
+}
+
+#survey-form {
+    width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.725);
+    border: 1px solid rgb(129, 129, 129);
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-form {
+    padding: 10px 220px;
+}
+
+.text-occupation {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text-option {
+    margin-bottom: 10px;
+}
+
+.text-option-2 {
+    margin-bottom: 10px;
+}
+
+b {
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+label {
+     display: flex;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     align-items: center;
+}
+
+input {
+    width: 50px;
+    height: 16px;
+    background-color: rgba(200, 200, 200, 0.676);
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 2px 6px;
+}
+
+#name {
+    width: 450px;
+    height: 30px;
+}
+
+#last-name {
+    width: 450px;
+    height: 30px;
+}
+
+#number {
+    width: 450px;
+    height: 30px;
+}
+
+#email {
+    width: 450px;
+    height: 30px;
+}
+
+input::placeholder {
+    padding: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input:focus {
+    background-color: rgba(25, 25, 25, 0.712);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#dropdown {
+    width: 450px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgba(200, 200, 200, 0.676);
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+    font-family: 'Raleway', sans-serif;
+    padding: 3px;
+}
+
+#dropdown:focus {
+    background-color: rgba(25, 25, 25, 0.712);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.option {
+    font-size: 22px;
+    margin-left: -35px;
+    padding: 3px;
+}
+
+.option-2 {
+    font-size: 22px;
+    margin-left: -25px;
+    padding: 3px;
+}
+
+textarea {
+    min-height: 80px;
+    width: 450px;
+    height: 100px;
+    font-size: 20px;
+    resize: vertical;
+    background-color: rgba(200, 200, 200, 0.676);
+    padding: 5px 10px;
+}
+
+textarea::placeholder {
+    padding: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea:focus {
+    background-color: rgba(25, 25, 25, 0.712);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    width: 80px;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+    border-radius: 4px;
+}
+
+button:active {
+    background-color: rgba(25, 25, 25, 0.712);
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 350px;
+        margin: 15px auto;
+        padding-bottom: 20px;
+    }
+
+    #title {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #description {
+        font-size: 12.5px;
+        text-align: center;
+        margin-top: -7.5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #survey-form {
+        width: 300px;
+        margin: auto;
+        font-size: 12.5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .section-form {
+        padding: 5px 110px;
+        margin-left: -66px;
+    }
+    
+    .text-occupation {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-left: 5px;
+    }
+    
+    .text-option {
+        margin-bottom: 5px;
+    }
+    
+    .text-option-2 {
+        margin-bottom: 5px;
+    }
+    
+    b {
+        font-size: 9px;
+        padding-left: 4px;
+    }
+    
+    label {
+         display: flex;
+         padding-left: 10px;
+         padding-bottom: 2px;
+         align-items: center;
+    }
+    
+    input {
+        width: 25px;
+        height: 8px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding: 1px 3px;
+    }
+    
+    #name {
+        width: 200px;
+        height: 15px;
+    }
+    
+    #last-name {
+        width: 200px;
+        height: 15px;
+    }
+    
+    #number {
+        width: 200px;
+        height: 15px;
+    }
+    
+    #email {
+        width: 200px;
+        height: 15px;
+    }
+    
+    input::placeholder {
+        padding: 3px;
+    }
+    
+    #dropdown {
+        width: 200px;
+        height: 20px;
+        font-size: 10px;
+        padding: 1.5px;
+    }
+    
+    .option {
+        font-size: 11px;
+        margin-left: -17.5px;
+        padding: 1.5px;
+    }
+    
+    .option-2 {
+        font-size: 11px;
+        margin-left: -12.5px;
+        padding: 1.5px;
+    }
+    
+    textarea {
+        min-height: 40px;
+        width: 200px;
+        height: 50px;
+        font-size: 10px;
+        padding: 2.5px 5px;
+    }
+    
+    textarea::placeholder {
+        padding: 3px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    button {
+        width: 50px;
+        height: 20px;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+
+    .section-form button {
+        margin-left: 95px;
+    }
+
+    .text-comments {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container {
+        width: 300px;
+    }
+    
+    #survey-form {
+        width: 250px;
+        margin: auto;
+    }
+
+    .section-form {
+        padding: 5px 100px;
+        margin-left: -80px;
+    }
+
+    .section-form button {
+        margin-left: 85px;
+    }
+
+    label {
+        font-size: 11px;
+    }
+
+    .text-occupation {
+        font-size: 11px;
+    }
+
+    .text-option {
+        font-size: 11px;
+    }
+
+    .text-option-2 {
+        font-size: 11px;
+    }
+
+    .text-comments {
+        font-size: 11px;
+    }
+
+    input {
+        font-size: 9px;
+    }
+
+    #dropdown {
+        font-size: 9px;
+    }
+
+    #comments {
+        font-size: 9px;
+    }
+}
