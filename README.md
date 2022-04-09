@@ -1,2 +1,2 @@
-Acá están mis proyectos como desarrolladora web. <br>
+En este repositorio están mis proyectos como desarrolladora web. <br>
 Mi cv: [ Luciana Vanelli.pdf ](https://github.com/luchivanelli/proyectos/files/8457513/Luciana.Vanelli.pdf)
