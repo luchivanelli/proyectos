@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+    margin-top: -80px;
+}
+
+.main {
+    margin-top: 80px;
+}
+
+#proyects {
+    width: 70%;
+    margin: auto;
+}
+
+.proyects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 50px;
+}
+
+.proyect-img {
+    width: 100%;
+    height: auto;
+}
