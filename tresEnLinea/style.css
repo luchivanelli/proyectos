@@ -3,15 +3,15 @@ body {
     font-family: sans-serif;
     background-color: #ced2dd;
     width: 60%;
-    margin: 40px auto;
-    border: 10px solid #d9376d9b;
+    margin: 20px auto;
+    border: 10px solid #0d0d0d;
 }
 
 .title {
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 3px;
-    color: #0d0d0d;
-    background-color: #d9376d9b;
+    color: #d9376e;
+    background-color: #0d0d0d;
     padding: 20px;
     margin: 0px auto 40px auto;
     text-align: center;
@@ -22,7 +22,7 @@ body {
     grid-template-columns: repeat(3,200px);
     grid-template-rows: repeat(3,200px);
     grid-gap: 10px;
-    margin: 50px;
+    margin: 30px;
     justify-content: center;
 }
 
@@ -41,5 +41,18 @@ body {
     text-align: center;
     font-size: 26px;
     color: #0d0d0d;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #0d0d0d;
+    color: #ced2dd;
+    font-size: 20px;
     letter-spacing: 2px;
 }

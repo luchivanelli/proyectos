@@ -12,7 +12,6 @@ const botonPulsado = (e) => {
         boton.appendChild(div);
 
         let pos = boton.classList.item(1);
-        /* tablero.push([pos,"O"]); */
         tablero[pos-1] = "O"
         respuesta = ganador();
         if (respuesta) {
@@ -28,7 +27,6 @@ const botonPulsado = (e) => {
 
         let pos = boton.classList.item(1);
         tablero[pos-1] = "X"
-        /* tablero.push([pos,"X"]); */
         respuesta = ganador();
         if (respuesta) {
             texto = document.createElement("P");
@@ -64,32 +62,4 @@ const ganador = ()=> {
         return true;
     }
 }
-
-/* const ganador = ()=> {
-    if (tablero.includes(["1","X"]) && tablero.includes(["2","X"]) && tablero.includes(["3","X"])) {
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["4","X"]) && tablero.includes(["5","X"]) && tablero.includes(["6","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["7","X"]) && tablero.includes(["8","X"]) && tablero.includes(["8","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["1","X"]) && tablero.includes(["3","X"]) && tablero.includes(["7","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["2","X"]) && tablero.includes(["4","X"]) && tablero.includes(["8","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["3","X"]) && tablero.includes(["6","X"]) && tablero.includes(["9","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["1","X"]) && tablero.includes(["5","X"]) && tablero.includes(["9","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    } else if (tablero.includes(["3","X"]) && tablero.includes(["5","X"]) && tablero.includes(["7","X"])){
-        respuesta = true;
-        alert("Jugador 'X' GANADOR")
-    }
-} */
 
