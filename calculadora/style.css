@@ -3,13 +3,29 @@ body {
     font-family: sans-serif;
 }
 
+.title {
+    letter-spacing: 4px;
+    font-size: 34px;
+    text-align: center;
+    background-color: #828282;
+    width: 64%;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(4,minmax(80px,100px));
     grid-template-rows: repeat(7,100px);
     grid-gap: 2px;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 40px;
     
 }
 
