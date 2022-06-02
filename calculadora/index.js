@@ -18,7 +18,6 @@ cero = document.querySelector(".cero")
 var num1, num2;
 
 
-
 const imprimir = (boton)=> {
     boton.addEventListener("click", ()=> {
         valorBoton = boton.textContent
@@ -30,8 +29,7 @@ const imprimir = (boton)=> {
 
         if (boton == ac) {
             pantalla.textContent = ""
-        }
-        
+        }   
     })
 }
 
