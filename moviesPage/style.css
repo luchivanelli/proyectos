@@ -36,9 +36,9 @@ background: linear-gradient(121deg, rgba(2,0,36,1) 0%, rgba(90,5,96,1) 50%, rgba
 
 .movies {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
-    gap: 16px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 50px;
+    padding: 20px 80px;    
 }
 
 .movie {
@@ -46,6 +46,10 @@ background: linear-gradient(121deg, rgba(2,0,36,1) 0%, rgba(90,5,96,1) 50%, rgba
     background-color: rgb(41, 39, 39);
     padding: 10px;
     border: 2px solid white;
+}
+
+.movie:hover {
+    background-color: rgb(83, 79, 79);
 }
 
 .movie-poster img {
@@ -79,6 +83,11 @@ form {
     text-align: center; 
 }
 
+.form-title {
+    font-size: 28px;
+    color: lime;
+}
+
 #seacher {
     font-size: 20px;
     padding: 14px;
@@ -108,4 +117,13 @@ label {
     text-align: center;
     font-size: 16px;
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .movies {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        gap: 30px;
+        padding: 10px 50px;    
+    }
 }
