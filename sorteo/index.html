@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#first-section">Realizar sorteo</a>
+        <a href="#firts-article">¿Qué es?</a>
+        <a href="#second-article">¿Cómo funciona?</a>
+    </nav>
+    <main class="main">
+        <section class="first-section" id="first-section">
+            <h1 class="title">Sorteo por nombres al azar</h1>
+            <h4 class="info">Escoge un ganador al azar de una <b>lista de nombres</b> con nuestra página web</h4>
+            <form class="form">
+                <div class="form-section">
+                    <label for="title-input">Título</label>
+                    <div class="form-title">
+                        <input type="text" name="form-title" class="title-input" placeholder="Escriba un título.." id="title-input">
+                    </div>
+                </div>
+                <div class="form-section">
+                    <label for="participants-input">Participantes <br>(separar cada participante con comas)</label>
+                    <div class="form-participants">
+                        <textarea type="text" name="form-participants" class="participants-input"></textarea>
+                    </div>
+                </div>
+                <button class="form-button">Comenzar</button>
+            </form>
+        </section>
+        <section class="second-section">
+            <article class="article-second-section" id="firts-article">
+                <h3 class="article-title">Qué es la herramienta "sorteo por nombres al azar"?</h3>
+                <p class="article-info">Sorteo por Nombres al Azar es una herramienta online y gratuita (si, es totalmente gratis) donde prodrás obtener ganadores aleatorios (al azar) de una lista de participantes, nombres, cosas, ciudad o lo que quieras!
+                <hr>
+                Ingresando la lista de nombres o participantes, y presionando el boton "Comenzar", se abrirá la aplicación con los partipantes que has ingresado.
+                <hr>
+                Puedes usar nuestra Herramienta para Sorteo Aleatorio para concursos online, premiaciones, rifas, sorteos y competiciones online! Es totalmente gratis e ilimitada.
+            </article>
+            <article class="article-second-section" id="second-article">
+                <h3 class="article-title">Cómo funciona la herramienta de sorteos aleatorios?</h3>
+                <p class="article-info">Sigue los pasos a continuación y comienza tu sorteo aleatorio de forma rápida y simple.</p>
+                <ul class="article-list">
+                    <li>Ingresa el listado de nombres, participantes, o cosas en el cuadro de texto, aquí arriba.</li>
+                    <li>También puedes copiar y pegar el listado de un Excel o comentarios online.</li>
+                    <li>Haz click en el botón "Comenzar"</li>
+                    <li>Comienza el sorteo </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

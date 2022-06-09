@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    background-color: #D9D0DE;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    color: #A04668;
+}
+
+.first-section {
+    background-color: #A04668;
+}
+
+.title {
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: center;   
+    color: #D9D0DE;
+    padding-top: 130px;
+}
+
+.info {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #D9D0DE;
+    margin: 30px 0 50px 0;
+}
+
+.info b {
+    color: #0C1713;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+}
+
+.form-section {
+    width: 100%;
+    padding: 0 160px;   
+}
+
+.title-input, .participants-input {
+    width: 400px;
+    margin: 5px 0;
+    background-color: #D9D0DE;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #0C1713;
+}
+
+.title-input {
+    height: 28px;  
+    margin-bottom: 30px;
+}
+
+.participants-input {
+    height: 240px;
+    resize: none;
+}
+
+.title-input:focus, .participants-input:focus {
+    background-color: #BC8DA0;
+}
+
+.form-section label {
+    font-size: 18px;
+    color: #D9D0DE;
+}
+
+.form-button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 50px 0 130px 0;
+    border-radius: 40px;
+    font-size: 20px;
+    border: 2.5px solid #0C1713;
+    background: transparent;
+    color: #D9D0DE;
+}
+
+.form-button:hover {
+    animation-name: button-color;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes button-color {
+    100% {
+        background-color: #D9D0DE;
+        color: #0C1713;
+    }
+}
+
+.article-second-section {
+    width: 70%;
+    margin: auto;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    font-size: 19px;
+}
+
+.article-title {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 110px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 30px 0;
+    background-color: #A04668;
+    height: 2px;
+    border: none;
+}
+
+#second-article {
+    width: 44%;
+    margin-bottom: 122px;
+}
+
+.article-list li {
+    margin: 14px 0;
+}
+
+.p1, .p2 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: -30px;
+    padding-bottom: 80px;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+.p1 b, .p2 b {
+    color: #D9D0DE;
+}
