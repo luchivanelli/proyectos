@@ -89,6 +89,10 @@ body {
     color: #D9D0DE;
 }
 
+.form-section label b {
+    color: #0C1713;
+}
+
 .form-button {
     border: none;
     width: 150px;
@@ -102,12 +106,12 @@ body {
 }
 
 .form-button:hover {
-    animation-name: button-color;
+    animation-name: button-color1;
     animation-duration: 1s;
     animation-fill-mode: both;
 }
 
-@keyframes button-color {
+@keyframes button-color1 {
     100% {
         background-color: #D9D0DE;
         color: #0C1713;
@@ -156,4 +160,35 @@ hr {
 
 .p1 b, .p2 b {
     color: #D9D0DE;
+}
+
+.button-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.end-button {
+    width: 300px;
+    height: 80px;
+    border: none;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    border: 2px solid #0C1713;
+    background-color: #D9D0DE;
+    color: #A04668;
+    font-size: 22px;  
+}
+
+.end-button:hover {
+    animation-name: button-color2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes button-color2 {
+    100% {
+        background-color: #A04668;
+        color: #D9D0DE;
+    }
 }
