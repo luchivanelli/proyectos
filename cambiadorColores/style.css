@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.color {
+    font-size: 40px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid black;
+    font-size: 24px;
+}
