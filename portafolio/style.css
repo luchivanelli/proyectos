@@ -54,7 +54,7 @@ body {
     text-align: center;
     margin-top: -100px;
     animation-name: colors;
-    animation-duration: 6000ms;
+    animation-duration: 5000ms;
     animation-iteration-count: infinite;
 }
 
@@ -62,7 +62,7 @@ body {
     margin-top: 10px;
     font-size: 32px;
     font-style: italic;
-    color: blueviolet;
+    color: black;
 }
 
 #proyects {
@@ -232,21 +232,12 @@ body {
 
 @keyframes colors {
     0% {
-        color: rgb(25, 11, 65);
+        color: rgb(44, 19, 114);
     }
-    20% {
-        color: blueviolet;
-    }
-    40% {
+    50% {
         color: white;
-    }
-    60% {
-        color: white;
-    }
-    80% {
-        color: blueviolet;
     }
     100% {
-        color: rgb(25, 11, 65);
+        color: rgb(44, 19, 114);
     }
 }
